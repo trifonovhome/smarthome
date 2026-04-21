@@ -3,3 +3,4 @@ theme: material
 
 nav:
   - Home: index.md
+  - Манифест: manifesto.md
