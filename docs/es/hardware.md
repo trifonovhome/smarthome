@@ -1,10 +1,10 @@
-# Our Equipment: Hardware Inventory
+# Nuestro hardware: Inventario de hardware
 
-To build a reliable smart home, you need a stable base. Here is the "hardware" that powers our project:
+Para construir una casa inteligente confiable, necesitas una base estable. Este es el hardware en el que se ejecuta nuestro proyecto:
 
-*   **OpenClaw Host (esh.local)**: GEEKOM IT13S Mini PC (Intel i9-13900HK, 32GB RAM). This is the "brain" of our assistant; it processes all requests, handles logic, and stores backups.
-*   **Home Assistant (homeassistant.local)**: NiPoGi Essenx E1 (AMD Ryzen 3250U, 8GB RAM). Responsible for connecting to physical devices in the house.
-*   **Family Desktop**: iMac (24", M1). The main computer for the family.
-*   **Router**: Keenetic. Our network center for traffic management.
+*   **Host OpenClaw (esh.local)**: Mini PC GEEKOM IT13S (Intel i9-13900HK, 32GB RAM). Este es el "cerebro" de nuestro asistente, que procesa todas las solicitudes, gestiona la lógica y almacena copias de seguridad.
+*   **Home Assistant (homeassistant.local)**: NiPoGi Essenx E1 (AMD Ryzen 3250U, 8GB RAM). Se encarga de la comunicación con los dispositivos físicos de la casa.
+*   **Escritorio Familiar**: iMac (24", M1). La computadora principal de la familia.
+*   **Router**: Keenetic. Nuestro administrador central de tráfico de red.
 
-We chose these devices based on the principle of: low power consumption + high performance + reliability.
+Seleccionamos estos dispositivos basándonos en el principio de bajo consumo de energía + alto rendimiento + confiabilidad.
