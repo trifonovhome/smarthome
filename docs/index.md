@@ -13,3 +13,4 @@ This is your personal knowledge base.
 - [Immich: Умный фотоархив](/immich)
 - [Протокол логирования рутин](/logging)
 - [GOG CLI: Автоматизация Google Workspace](/gog-cli)
+- [Переход на Docs-as-Code](/github-migration)
