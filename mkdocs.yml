@@ -14,23 +14,16 @@ theme:
     - search.share
     - search.suggest
 
-plugins:
-  - search
-  - i18n:
-      default_language: en
-      reconfigure_material: true
-      redirect: false
-      languages:
-        - locale: en
-          name: English
-          default: true
-          build: true
-        - locale: ru
-          name: Русский
-          build: true
-        - locale: es
-          name: Español
-          build: true
-        - locale: fr
-          name: Français
-          build: true
+nav:
+  - English:
+      - Home: en/index.md
+      - Hardware: en/hardware.md
+  - Русский:
+      - Главная: ru/index.md
+      - Оборудование: ru/hardware.md
+  - Español:
+      - Inicio: es/index.md
+      - Hardware: es/hardware.md
+  - Français:
+      - Accueil: fr/index.md
+      - Hardware: fr/hardware.md
