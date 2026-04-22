@@ -1,5 +1,7 @@
 site_name: SmartHome 🏠
-theme: material
+theme:
+  name: material
+  logo: assets/logo.svg
 
 nav:
   - Главная: index.md
