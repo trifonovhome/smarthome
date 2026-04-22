@@ -18,11 +18,6 @@ theme:
     - stylesheets/extra.css
 
 nav:
-  - '🌍':
-      - English: en/index.md
-      - Русский: ru/index.md
-      - Español: es/index.md
-      - Français: fr/index.md
   - English:
       - Home: en/index.md
       - Hardware: en/hardware.md
@@ -41,3 +36,7 @@ nav:
   - Français:
       - Accueil: fr/index.md
       - Hardware: fr/hardware.md
+  - EN: en/index.md
+  - RU: ru/index.md
+  - ES: es/index.md
+  - FR: fr/index.md
