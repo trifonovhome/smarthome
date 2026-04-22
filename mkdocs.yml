@@ -19,8 +19,10 @@ theme:
 
 nav:
   - English:
+      - Home: en/index.md
       - Hardware: en/hardware.md
   - Русский:
+      - Главная: ru/index.md
       - Оборудование: ru/hardware.md
       - Deploy Guide: ru/deploy-guide.md
       - GitHub Migration: ru/github-migration.md
@@ -29,10 +31,13 @@ nav:
       - Logging: ru/logging.md
       - Tech Stack: ru/tech-stack.md
   - Español:
+      - Inicio: es/index.md
       - Hardware: es/hardware.md
   - Français:
+      - Accueil: fr/index.md
       - Hardware: fr/hardware.md
-  - EN: en/index.md
-  - RU: ru/index.md
-  - ES: es/index.md
-  - FR: fr/index.md
+  - 🌍 Language:
+      - English: en/index.md
+      - Русский: ru/index.md
+      - Español: es/index.md
+      - Français: fr/index.md
