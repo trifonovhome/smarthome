@@ -1,5 +1,6 @@
 site_url: https://trifonov.me/
 site_name: SmartHome
+strict: true
 theme:
   name: material
   logo: assets/logo.svg
@@ -33,5 +34,7 @@ plugins:
           build: true
 
 nav:
-  - Home: index.md
-  - Hardware: hardware.md
+  - Home: en/index.md
+  - Hardware: en/hardware.md
+  - Главная: ru/index.md
+  - Оборудование: ru/hardware.md
