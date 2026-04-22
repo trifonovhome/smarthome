@@ -31,3 +31,7 @@ plugins:
         - locale: fr
           name: Français
           build: true
+
+nav:
+  - Home: index.md
+  - Hardware: hardware.md
