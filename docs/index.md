@@ -14,3 +14,4 @@ This is your personal knowledge base.
 - [Протокол логирования рутин](/logging)
 - [GOG CLI: Автоматизация Google Workspace](/gog-cli)
 - [Переход на Docs-as-Code](/github-migration)
+- [Deploy-квест: GitHub Actions](/deploy-guide)
