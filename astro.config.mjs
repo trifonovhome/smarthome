@@ -7,17 +7,17 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'SmartHome',
-			defaultLocale: 'en',
+			defaultLocale: 'ru',
 			locales: {
-				en: { label: 'English' },
-				ru: { label: 'Русский' },
-				es: { label: 'Español' },
-				fr: { label: 'Français' },
+				en: { label: 'English', lang: 'en' },
+				ru: { label: 'Русский', lang: 'ru' },
+				es: { label: 'Español', lang: 'es' },
+				fr: { label: 'Français', lang: 'fr' },
 			},
 			sidebar: [
 				{
-					label: 'Hardware',
-					autogenerate: { directory: 'hardware' },
+					label: 'Документация',
+					autogenerate: { directory: '' },
 				},
 			],
 		}),
