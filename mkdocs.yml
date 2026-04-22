@@ -1,5 +1,6 @@
 site_url: https://trifonov.me/
 site_name: SmartHome
+strict: true
 theme:
   name: material
   logo: assets/logo.svg
@@ -14,6 +15,9 @@ theme:
     - search.share
     - search.suggest
 
+plugins:
+  - search
+
 nav:
   - English:
       - Home: en/index.md
@@ -21,6 +25,12 @@ nav:
   - Русский:
       - Главная: ru/index.md
       - Оборудование: ru/hardware.md
+      - Deploy Guide: ru/deploy-guide.md
+      - GitHub Migration: ru/github-migration.md
+      - GOG CLI: ru/gog-cli.md
+      - Immich: ru/immich.md
+      - Logging: ru/logging.md
+      - Tech Stack: ru/tech-stack.md
   - Español:
       - Inicio: es/index.md
       - Hardware: es/hardware.md
