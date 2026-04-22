@@ -1,6 +1,5 @@
 site_url: https://trifonov.me/
 site_name: SmartHome
-strict: true
 theme:
   name: material
   logo: assets/logo.svg
