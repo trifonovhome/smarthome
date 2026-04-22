@@ -15,10 +15,12 @@ theme:
     - search.share
     - search.suggest
 
-plugins:
-  - search
-
 nav:
+  - '🌍 Language':
+      - English: en/index.md
+      - Русский: ru/index.md
+      - Español: es/index.md
+      - Français: fr/index.md
   - English:
       - Home: en/index.md
       - Hardware: en/hardware.md
