@@ -18,6 +18,9 @@ theme:
 plugins:
   - search
   - i18n:
+      default_language: en
+      reconfigure_material: true
+      redirect: false
       languages:
         - locale: en
           name: English
@@ -32,9 +35,3 @@ plugins:
         - locale: fr
           name: Français
           build: true
-
-nav:
-  - Home: en/index.md
-  - Hardware: en/hardware.md
-  - Главная: ru/index.md
-  - Оборудование: ru/hardware.md
