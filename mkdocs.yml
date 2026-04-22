@@ -1,3 +1,12 @@
+plugins:
+  - search
+  - i18n:
+      languages:
+        - locale: ru
+          default: true
+          name: Русский
+        - locale: en
+          name: English
 site_name: SmartHome
 theme:
   name: material
