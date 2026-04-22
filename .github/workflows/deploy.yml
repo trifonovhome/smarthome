@@ -1,4 +1,4 @@
-name: Deploy MkDocs
+name: Deploy Starlight
 on:
   push:
     branches:
@@ -6,19 +6,16 @@ on:
 permissions:
   contents: write
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-node@v4
         with:
-          python-version: 3.x
-      - name: Install dependencies
-        run: |
-          pip install mkdocs mkdocs-material
-      - name: Deploy
-        run: |
-          git config --global user.name "SmartHome Bot"
-          git config --global user.email "bot@trifonov.me"
-          mkdocs gh-deploy --force
+          node-version: 20
+      - run: npm install
+      - run: npm run build
+      - uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
