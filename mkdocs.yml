@@ -1,20 +1,21 @@
-plugins:
-  - search
-  - i18n:
-      languages:
-        - locale: ru
-          default: true
-          name: Русский
-        - locale: en
-          name: English
-        - locale: es
-          name: Español
-        - locale: fr
-          name: Français
 site_name: SmartHome
 theme:
   name: material
   logo: assets/logo.svg
+
+plugins:
+  - search
+  - i18n:
+      languages:
+        - locale: en
+          default: true
+          name: English
+        - locale: ru
+          name: Русский
+        - locale: es
+          name: Español
+        - locale: fr
+          name: Français
 
 nav:
   - Главная: index.md
