@@ -17,13 +17,17 @@ theme:
 plugins:
   - search
   - i18n:
-      default_language: en
       languages:
         - locale: en
           name: English
+          default: true
+          build: true
         - locale: ru
           name: Русский
+          build: true
         - locale: es
           name: Español
+          build: true
         - locale: fr
           name: Français
+          build: true
