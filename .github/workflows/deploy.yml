@@ -15,7 +15,8 @@ jobs:
         with:
           python-version: 3.x
       - name: Install dependencies
-        run: pip install mkdocs-material mkdocs-static-i18n
+        run: |
+          pip install mkdocs mkdocs-material mkdocs-static-i18n
       - name: Deploy
         run: |
           git config --global user.name "github-actions[bot]"
