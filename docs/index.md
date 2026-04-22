@@ -12,3 +12,4 @@ This is your personal knowledge base.
 - [Hardware: Железо и сеть](/hardware)
 - [Immich: Умный фотоархив](/immich)
 - [Протокол логирования рутин](/logging)
+- [GOG CLI: Автоматизация Google Workspace](/gog-cli)
