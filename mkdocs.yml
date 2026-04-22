@@ -1,9 +1,13 @@
-site_name: Andrei's Hub
+site_name: SmartHome 🏠
 theme: material
 
 nav:
-  - Home: index.md
-  - Манифест: manifesto.md
+  - Главная: index.md
   - Оборудование: hardware.md
   - Технологический стек: tech-stack.md
+  - Блог:
+      - Протокол логирования рутин: logging.md
+      - GOG CLI: gog-cli.md
+      - Переход на Docs-as-Code: github-migration.md
+      - Deploy-квест (GitHub Actions): deploy-guide.md
   - Фото-архив (Immich): immich.md
