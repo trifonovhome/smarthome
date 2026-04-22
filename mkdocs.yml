@@ -7,6 +7,10 @@ plugins:
           name: Русский
         - locale: en
           name: English
+        - locale: es
+          name: Español
+        - locale: fr
+          name: Français
 site_name: SmartHome
 theme:
   name: material
